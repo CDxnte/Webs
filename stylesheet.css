@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    
+}
+.wrapper{
+    width: 65%;
+    background: blue;
+   margin:auto;
+   height: fit-content;
+    
+
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+
+}
+ul{
+display: flex;
+align-items: center;
+
+}
+a{
+    text-decoration: none;
+    padding:0px 3px 0px 3px;
+    font-size: 20px;
+    color:black
+}
+li{
+    list-style: none;
+}
+nav h1{
+    font-size: 40px;
+}
+main{
+    height:700px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.heroimg{
+    background: url('https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2018/03/jdm-18-e1520693334243.jpg?q=50&fit=crop&w=750&dpr=1.5');
+    background-size:cover;
+    
+    background-position: -125px;
+    height: 500px;
+    width: 500px;
+}
+.title h2  {
+    font-size: 90px;
+}
+.title h3  {
+    font-size: 40px;
+    margin:0px 0px 0px 5px;
+}
+.gallery{
+    align-items: center;
+   
+    height: 700px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: auto auto;
+    
+}
+.cont{
+    background: violet;
+
+}
+img{
+    height:300px;
+   width: 300px;
+   object-fit: cover;
+    
+}
+.gallery p{
+    text-align: center;
+    padding:0px 0px 20px 0px;
+}
+
+footer{
+    
+    background-color: black;
+    
+
+}
+
+footer h1{
+    color:white;
+
+}
+footer ul{
+    display: flex;
+    
+    align-items: center;
+}
+footer li{
+    text-decoration: none;
+}
+footer a{
+    color: white;
+    font-size: 20px;
+}
+.footcont{
+    display: flex;
+    width:65%;
+    margin: auto;
+    height:150px;
+    align-items: center;
+    justify-content:space-between;
+}
